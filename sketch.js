@@ -36,6 +36,9 @@ function draw() {
  background(0);
 
  Engine.update(engine);
+	fill("white");
+	textSize(24);
+	text("Press up arrrow key to make the ball jump",30,40);
 
  paper.display();
 
